@@ -4,7 +4,7 @@ Loads a model and uses it to infer labels for images in a directory showing huma
 Author: Joe Nunn
 """
 
-from action_classifier.classifier import HumanActionClassifier
+from actionclassifier.classifier import HumanActionClassifier
 
 # Create classifier using model specified by user
 model_path = input("Please enter path of model (ending with .pt) to use: ")

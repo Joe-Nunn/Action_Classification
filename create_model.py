@@ -4,7 +4,7 @@ Trains and saves a model to classify human actions in sports
 Author: Joe Nunn
 """
 
-from action_classifier.classifier import HumanActionClassifierTrainer
+from actionclassifier.classifier import HumanActionClassifierTrainer
 
 # Get path for directory containing images to train with
 samples_folder_path = input("Please enter the path of the directory with images to train with: ")
